@@ -1,0 +1,3 @@
+HASHCAT_TREE=hashcat-3.30
+GPU_TEMP_DISABLE=false
+HCCAPX_V4=false

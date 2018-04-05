@@ -1,0 +1,6 @@
+KNOWN	* 0	known_passwords.txt
+ROCKYOU	* 0	rockyou.txt
+RULES1	* 0	temp.dict	-r	hob064.rule
+RULES2	* 0	temp.dict	-r	rules/T0XlC.rule
+SSID	* 0	temp2.dict
+ATTXXX	ssid=ATT\d\d\d	3	?d?d?d?d?d?d?d?d?d?d

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Webpage</title>
+</head>
+<body>
+Current status: {{state | e }}
+
+<table border=2>
+{% for a,b in data %}
+  <tr><td>{{ a|e }}</td><td>{{ b|e }}</td></tr>
+{% endfor %}
+</table>
+
+    {# a comment #}
+</body>
+</html>
