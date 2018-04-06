@@ -1,6 +1,15 @@
-KNOWN	* 0	known_passwords.txt
-ROCKYOU	* 0	rockyou.txt
-RULES1	* 0	temp.dict	-r	hob064.rule
-RULES2	* 0	temp.dict	-r	rules/T0XlC.rule
-SSID	* 0	temp2.dict
+KNOWN	*	0	known_passwords.txt
+ROCKYOU	*	0	rockyou.txt
+TWO_M	*	0	..\data\orig_2M.txt	
+PHONES	*	3	phones.mask
+YEARS	*	3	4cyear.mask
+RULES1	*	0	temp.dict	-r	hob064.rule
+RULES2	*	0	temp.dict	-r	rules/T0XlC.rule
+SSID	*	0	temp2.dict
+NETGEAR1	ssid=NETGEAR.*	6	..\data\netgear.txt	?d?d?d
+NETGEAR2	vendor=Netgear	3	netgear.masks
+COMBINATOR1	*	1	temp2.dict	..\data\sublen_2M.txt
+COMBINATOR2	*	1	temp2.dict	..\data\orig_2M.txt
+COMBINATOR3	*	1	..\data\sublen_2M.txt	temp2.dict
+G1670	ssid=.G167.*	3	$SSID[:-2]?H?H?H?H?H?H
 ATTXXX	ssid=ATT\d\d\d	3	?d?d?d?d?d?d?d?d?d?d
